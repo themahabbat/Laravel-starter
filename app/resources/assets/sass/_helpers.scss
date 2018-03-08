@@ -1,0 +1,10 @@
+.nonecase {
+  text-transform: none;
+}
+
+.a-step {
+  &:hover {
+    opacity: 1;
+    animation: 1s ease-in-out infinite step;
+  }
+}

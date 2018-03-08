@@ -1,0 +1,10 @@
+.btn-gd-1 {
+  background: linear-gradient(to right, #2193b0, #6dd5ed) !important;
+  box-shadow: 0 0 2px #2193b0;
+  color: darken(white, 3%) !important;
+  opacity: 0.9;
+
+  &-reverse {
+    background: linear-gradient(to left, #2193b0, #6dd5ed) !important;
+  }
+}
