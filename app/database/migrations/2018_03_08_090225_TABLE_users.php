@@ -17,6 +17,7 @@ class TABLEUsers extends Migration
           $users->increments('id');
           $users->string('email')->unique();
           $users->string('password');
+          $users->string('remember_token');
           $users->timestamps();
         });
     }
